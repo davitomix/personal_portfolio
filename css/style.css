@@ -1,2 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+.nav-cont {
+  padding: 0; }
+
+.header-cont {
+  background-color: antiquewhite;
+  height: 1000px; }
+
+/*# sourceMappingURL=style.css.map */
