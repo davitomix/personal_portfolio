@@ -16,13 +16,15 @@
 .pjct-cont {
   background-color: aquamarine; }
   .pjct-cont .pjct-box:first-child {
+    min-height: 350px;
     margin-top: 20px; }
   .pjct-cont .pjct-box {
     background-color: azure;
     min-height: 350px;
-    max-width: 500px;
-    margin: 10px 0 10px 0; }
+    margin: 10px 0 10px 0;
+    max-width: 96%; }
   .pjct-cont .pjct-box:last-child {
+    min-height: 350px;
     margin-bottom: 20px; }
 
 .cntct-cont {
