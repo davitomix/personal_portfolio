@@ -1,10 +1,37 @@
+body{
+  // Typo.
+  font-family: 'Lora', Arial, Helvetica, sans-serif;
+  a,
+  h1,
+  h2{
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  h1{
+    font-size: 4em;
+    text-transform: uppercase;
+  }
+  h2{
+    font-size: 3em;
+    text-transform: uppercase;
+  }
+  h3{
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+}
+
 .nav-cont{
   padding: 0;
 }
 
 .hdr-cont{
   background-color: aqua;
-  min-height: 500px;
+  min-height: 350px;
+  h1,
+  h3:last-child{
+    padding: 20px;
+  }
 }
 
 .sub-hdr{

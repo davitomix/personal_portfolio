@@ -1,9 +1,29 @@
+body {
+  font-family: 'Lora', Arial, Helvetica, sans-serif; }
+  body a,
+  body h1,
+  body h2 {
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif; }
+  body h1 {
+    font-size: 4em;
+    text-transform: uppercase; }
+  body h2 {
+    font-size: 3em;
+    text-transform: uppercase; }
+  body h3 {
+    font-weight: bold;
+    font-size: 1.3em; }
+
 .nav-cont {
   padding: 0; }
 
 .hdr-cont {
   background-color: aqua;
-  min-height: 500px; }
+  min-height: 350px; }
+  .hdr-cont h1,
+  .hdr-cont h3:last-child {
+    padding: 20px; }
 
 .sub-hdr {
   background-color: aquamarine;
