@@ -14,6 +14,9 @@ body {
   body h3 {
     font-weight: bold;
     font-size: 1.3em; }
+  body h4 {
+    font-weight: normal;
+    font-size: 2.3em; }
 
 .nav-cont {
   padding: 0; }
@@ -57,7 +60,6 @@ body {
 .pjct-cont {
   background-color: aquamarine; }
   .pjct-cont .pjct-box:first-child {
-    min-height: 350px;
     margin-top: 20px; }
   .pjct-cont .pjct-box {
     background-color: azure;
@@ -65,9 +67,17 @@ body {
     margin: 10px 0 10px 0;
     max-width: 96%;
     border: 7px solid #00FFFF;
-    border-radius: 20px; }
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    .pjct-cont .pjct-box .pjct-back {
+      background: linear-gradient(to top, transparent, #58a4a0 250%), url(../assets/images/moto-rockt-feed.png) no-repeat;
+      background-color: black;
+      background-position: 50% 0;
+      background-size: cover;
+      min-height: 300px; }
+    .pjct-cont .pjct-box .pjct-content {
+      min-height: 300px; }
   .pjct-cont .pjct-box:last-child {
-    min-height: 350px;
     margin-bottom: 20px; }
 
 .cntct-cont {
