@@ -30,8 +30,10 @@ body {
 
 .sub-hdr {
   background-color: aquamarine; }
-  .sub-hdr h2 {
+  .sub-hdr .info-skills {
     padding: 20px 0 20px 0; }
+    .sub-hdr .info-skills h2 {
+      border-bottom: 7px solid #00FFFF; }
   .sub-hdr .sub-cover {
     padding: 20px 0 20px 0; }
     .sub-hdr .sub-cover img {
@@ -46,9 +48,11 @@ body {
     background-color: cornflowerblue; }
 
 .pjct-title {
-  background-color: aqua; }
-  .pjct-title h2 {
+  background-color: blanchedalmond; }
+  .pjct-title .projects {
     padding: 20px 0 20px 0; }
+    .pjct-title .projects h2 {
+      border-bottom: 7px solid #00FFFF; }
 
 .pjct-cont {
   background-color: aquamarine; }
@@ -59,7 +63,9 @@ body {
     background-color: azure;
     min-height: 350px;
     margin: 10px 0 10px 0;
-    max-width: 96%; }
+    max-width: 96%;
+    border: 7px solid #00FFFF;
+    border-radius: 20px; }
   .pjct-cont .pjct-box:last-child {
     min-height: 350px;
     margin-bottom: 20px; }
