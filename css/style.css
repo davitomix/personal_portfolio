@@ -9,7 +9,7 @@ body {
     font-size: 4em;
     text-transform: uppercase; }
   body h2 {
-    font-size: 3em;
+    font-size: 2.8em;
     text-transform: uppercase; }
   body h3 {
     font-weight: bold;
@@ -19,22 +19,36 @@ body {
   padding: 0; }
 
 .hdr-cont {
-  background-color: aqua; }
+  background-color: aqua;
+  text-align: center; }
   .hdr-cont h1 {
     padding: 50px 0 20px 0; }
-  .hdr-cont h3:last-child {
+  .hdr-cont h3:last-of-type {
     padding: 20px; }
   .hdr-cont .hdr-cover {
-    max-height: 650px;
-    padding: 20px 0 20px 0; }
+    max-height: 650px; }
 
 .sub-hdr {
-  background-color: aquamarine;
-  min-height: 500px; }
+  background-color: aquamarine; }
+  .sub-hdr h2 {
+    padding: 20px 0 20px 0; }
+  .sub-hdr .sub-cover {
+    padding: 20px 0 20px 0; }
+    .sub-hdr .sub-cover img {
+      max-height: 450px; }
+  .sub-hdr .sub-txt {
+    padding: 20px 20px 20px 20px; }
+  .sub-hdr .bx-1 {
+    background-color: blanchedalmond; }
+  .sub-hdr .bx-2 {
+    background-color: brown; }
+  .sub-hdr .bx-3 {
+    background-color: cornflowerblue; }
 
 .pjct-title {
-  background-color: aqua;
-  min-height: 200px; }
+  background-color: aqua; }
+  .pjct-title h2 {
+    padding: 20px 0 20px 0; }
 
 .pjct-cont {
   background-color: aquamarine; }

@@ -12,7 +12,7 @@ body{
     text-transform: uppercase;
   }
   h2{
-    font-size: 3em;
+    font-size: 2.8em;
     text-transform: uppercase;
   }
   h3{
@@ -27,26 +27,48 @@ body{
 
 .hdr-cont{
   background-color: aqua;
+  text-align: center;
   h1{
     padding: 50px 0 20px 0;
   }
-  h3:last-child{
+  h3:last-of-type{
     padding: 20px;
   }
   .hdr-cover{
     max-height: 650px;
-    padding: 20px 0 20px 0;
   }
 }
 
 .sub-hdr{
   background-color: aquamarine;
-  min-height: 500px;
+  h2{
+    padding: 20px 0 20px 0;
+  }
+  .sub-cover{
+    img{
+      max-height: 450px;
+    }
+    padding: 20px 0 20px 0;
+  }
+  .sub-txt{
+    padding: 20px 20px 20px 20px;
+  }
+  .bx-1{
+    background-color: blanchedalmond;
+  }
+  .bx-2{
+    background-color: brown;
+  }
+  .bx-3{
+    background-color: cornflowerblue;
+  }
 }
 
 .pjct-title{
   background-color: aqua;
-  min-height: 200px;
+  h2{
+    padding: 20px 0 20px 0;
+  }
 }
 
 .pjct-cont{
