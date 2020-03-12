@@ -27,10 +27,15 @@ body{
 
 .hdr-cont{
   background-color: aqua;
-  min-height: 350px;
-  h1,
+  h1{
+    padding: 50px 0 20px 0;
+  }
   h3:last-child{
     padding: 20px;
+  }
+  .hdr-cover{
+    max-height: 650px;
+    padding: 20px 0 20px 0;
   }
 }
 
