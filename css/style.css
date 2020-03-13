@@ -63,13 +63,16 @@ body {
     margin-top: 20px; }
   .pjct-cont .pjct-box {
     background-color: azure;
-    min-height: 350px;
     margin: 10px 0 10px 0;
     max-width: 96%;
-    border: 7px solid #00FFFF;
-    border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
     .pjct-cont .pjct-box .pjct-back {
+      border: 7px solid #00FFFF;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      min-height: 400px;
       background-color: #444444;
       padding: 0; }
       .pjct-cont .pjct-box .pjct-back .bckg-img {
@@ -88,7 +91,35 @@ body {
       .pjct-cont .pjct-box .pjct-back:hover .bckg-img {
         opacity: 0; }
     .pjct-cont .pjct-box .pjct-content {
-      min-height: 300px; }
+      border: 7px solid #157474;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding: 20px; }
+      .pjct-cont .pjct-box .pjct-content h4,
+      .pjct-cont .pjct-box .pjct-content p {
+        text-align: justify;
+        padding-bottom: 20px; }
+      .pjct-cont .pjct-box .pjct-content .pjct-skills {
+        padding-top: 10px; }
+        .pjct-cont .pjct-box .pjct-content .pjct-skills .skill-logo {
+          font-family: 'Roboto Condensed', sans-serif;
+          text-transform: uppercase;
+          border-radius: 5px;
+          padding: 2px;
+          margin: 7.5px; }
+          .pjct-cont .pjct-box .pjct-content .pjct-skills .skill-logo .skill-svg {
+            height: 40px;
+            width: 40px;
+            margin: 2px 20px 2px 20px; }
+      .pjct-cont .pjct-box .pjct-content .pjct-links {
+        padding-top: 10px; }
+        .pjct-cont .pjct-box .pjct-content .pjct-links .skill-link {
+          border: 1px solid black;
+          border-radius: 5px;
+          padding: 2px;
+          margin: 3px; }
   .pjct-cont .pjct-box:last-child {
     margin-bottom: 20px; }
 
