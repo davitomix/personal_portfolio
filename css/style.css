@@ -72,7 +72,6 @@ body {
       border-bottom-left-radius: 10px;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
-      min-height: 400px;
       background-color: #444444;
       padding: 0; }
       .pjct-cont .pjct-box .pjct-back .bckg-img {
@@ -97,10 +96,13 @@ body {
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
       padding: 20px; }
+      .pjct-cont .pjct-box .pjct-content h4 {
+        font-family: 'Roboto Condensed', sans-serif;
+        text-transform: uppercase; }
       .pjct-cont .pjct-box .pjct-content h4,
       .pjct-cont .pjct-box .pjct-content p {
         text-align: justify;
-        padding-bottom: 20px; }
+        padding-bottom: 15px; }
       .pjct-cont .pjct-box .pjct-content .pjct-skills {
         padding-top: 10px; }
         .pjct-cont .pjct-box .pjct-content .pjct-skills .skill-logo {
@@ -112,14 +114,28 @@ body {
           .pjct-cont .pjct-box .pjct-content .pjct-skills .skill-logo .skill-svg {
             height: 40px;
             width: 40px;
-            margin: 2px 20px 2px 20px; }
+            margin: 2px 20px 2px 20px;
+            padding-bottom: 5px; }
+          .pjct-cont .pjct-box .pjct-content .pjct-skills .skill-logo .skill-svg:hover {
+            height: 50px;
+            width: 50px;
+            margin: -5px 15px -4px 15px;
+            padding-bottom: 10px; }
       .pjct-cont .pjct-box .pjct-content .pjct-links {
         padding-top: 10px; }
         .pjct-cont .pjct-box .pjct-content .pjct-links .skill-link {
-          border: 1px solid black;
+          border: 1px solid #c1c1c1;
           border-radius: 5px;
-          padding: 2px;
-          margin: 3px; }
+          margin: 3px 10px 3px 10px; }
+          .pjct-cont .pjct-box .pjct-content .pjct-links .skill-link button {
+            background-color: antiquewhite;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75); }
+            .pjct-cont .pjct-box .pjct-content .pjct-links .skill-link button a {
+              text-transform: uppercase;
+              color: black;
+              text-decoration: none; }
+          .pjct-cont .pjct-box .pjct-content .pjct-links .skill-link button:hover {
+            background-color: #b8ab9b; }
   .pjct-cont .pjct-box:last-child {
     margin-bottom: 20px; }
 

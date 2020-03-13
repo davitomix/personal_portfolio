@@ -97,7 +97,6 @@ body{
       border-bottom-left-radius: 10px;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
-      min-height: 400px;
       background-color: rgb(68, 68, 68);
       padding: 0;
       .bckg-img{
@@ -129,10 +128,14 @@ body{
       border-bottom-left-radius: 0;
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
+      h4{
+        font-family: 'Roboto Condensed', sans-serif;
+        text-transform: uppercase;
+      }
       h4,
       p{
         text-align: justify;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
       }
       padding: 20px;
       .pjct-skills{
@@ -147,16 +150,34 @@ body{
             height: 40px;
             width: 40px;
             margin: 2px 20px 2px 20px;
+            padding-bottom: 5px;
+          }
+          .skill-svg:hover{
+            height: 50px;
+            width: 50px;
+            margin: -5px 15px -4px 15px;
+            padding-bottom: 10px;
           }
         }
       }
       .pjct-links{
         padding-top: 10px;
         .skill-link{
-          border: 1px solid black;
+          border: 1px solid rgb(193, 193, 193);
           border-radius: 5px;
-          padding: 2px;
-          margin: 3px;
+          margin: 3px 10px 3px 10px;
+          button{
+            background-color: antiquewhite;
+            a{
+              text-transform: uppercase;
+              color: black;
+              text-decoration: none;
+            }
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.75);
+          }
+          button:hover{
+            background-color: rgb(184, 171, 155);
+          }
         }
       }
     }
