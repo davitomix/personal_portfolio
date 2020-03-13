@@ -70,11 +70,23 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
     .pjct-cont .pjct-box .pjct-back {
-      background: linear-gradient(to top, transparent, #58a4a0 250%), url(../assets/images/moto-rockt-feed.png) no-repeat;
-      background-color: black;
+      transition: background-color 500ms linear;
+      padding: 0; }
+      .pjct-cont .pjct-box .pjct-back .bckg-img {
+        background: linear-gradient(to top, transparent, #2d647e 150%), url(../assets/images/mock-rockt-mx.png) no-repeat;
+        background-color: #444444;
+        background-position: 50% 0;
+        background-size: cover;
+        transition: opacity 1s ease-in-out;
+        width: 100%;
+        height: 100%; }
+    .pjct-cont .pjct-box .pjct-back:hover {
+      background: linear-gradient(to top, transparent, #2d647e 150%), url(../assets/images/mob-mock-rockt-mx.png) no-repeat;
+      background-color: #444444;
       background-position: 50% 0;
-      background-size: cover;
-      min-height: 300px; }
+      background-size: cover; }
+      .pjct-cont .pjct-box .pjct-back:hover .bckg-img {
+        opacity: 0; }
     .pjct-cont .pjct-box .pjct-content {
       min-height: 300px; }
   .pjct-cont .pjct-box:last-child {
