@@ -15,8 +15,8 @@ body {
     font-weight: bold;
     font-size: 1.3em; }
   body h4 {
-    font-weight: normal;
-    font-size: 2.3em; }
+    font-weight: bold;
+    font-size: 2.5em; }
 
 .nav-cont {
   padding: 0; }
@@ -100,9 +100,6 @@ body {
     border-bottom-right-radius: 0; }
   .pjct-cont .pjct-box .pjct-content {
     padding: 20px; }
-    .pjct-cont .pjct-box .pjct-content h4 {
-      font-family: 'Roboto Condensed', sans-serif;
-      text-transform: uppercase; }
     .pjct-cont .pjct-box .pjct-content h4,
     .pjct-cont .pjct-box .pjct-content p {
       text-align: justify;

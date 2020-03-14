@@ -20,8 +20,8 @@ body{
     font-size: 1.3em;
   }
   h4{
-    font-weight: normal;
-    font-size: 2.3em;
+    font-weight: bold;
+    font-size: 2.5em;
   }
 }
 
@@ -138,10 +138,6 @@ body{
       border-bottom-right-radius: 0;
     }
     .pjct-content{
-      h4{
-        font-family: 'Roboto Condensed', sans-serif;
-        text-transform: uppercase;
-      }
       h4,
       p{
         text-align: justify;
