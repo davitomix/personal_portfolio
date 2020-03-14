@@ -102,6 +102,11 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     .pjct-back{
       padding: 0;
+      background:
+        linear-gradient(to top, transparent, rgb(45, 100, 126) 150%),
+        url(../assets/images/mob-mock-rockt-mx.png) no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
       .bckg-img{
         background: 
           linear-gradient(to top, transparent, rgb(45, 100, 126) 150%),
@@ -114,11 +119,6 @@ body{
       }
     }
     .pjct-back:hover {
-      background:
-        linear-gradient(to top, transparent, rgb(45, 100, 126) 150%),
-        url(../assets/images/mob-mock-rockt-mx.png) no-repeat;
-      background-position: 50% 0;
-      background-size: cover;
       .bckg-img{
         opacity: 0;
       }
