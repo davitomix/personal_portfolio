@@ -73,11 +73,9 @@ body {
   margin: 10px 0 10px 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .pjct-cont .pjct-box .pjct-back {
-    background-color: #444444;
     padding: 0; }
     .pjct-cont .pjct-box .pjct-back .bckg-img {
       background: linear-gradient(to top, transparent, #2d647e 150%), url(../assets/images/mock-rockt-mx.png) no-repeat;
-      background-color: #444444;
       background-position: 50% 0;
       background-size: cover;
       transition: opacity 1s ease-in-out;
@@ -85,7 +83,6 @@ body {
       height: 100%; }
   .pjct-cont .pjct-box .pjct-back:hover {
     background: linear-gradient(to top, transparent, #2d647e 150%), url(../assets/images/mob-mock-rockt-mx.png) no-repeat;
-    background-color: #444444;
     background-position: 50% 0;
     background-size: cover; }
     .pjct-cont .pjct-box .pjct-back:hover .bckg-img {
