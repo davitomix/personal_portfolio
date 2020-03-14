@@ -176,20 +176,28 @@ body{
       .pjct-links{
         padding-top: 10px;
         .skill-link{
-          border: 1px solid rgb(193, 193, 193);
-          border-radius: 5px;
           margin: 3px 10px 3px 10px;
-          button{
-            background-color: antiquewhite;
-            a{
-              text-transform: uppercase;
-              color: black;
-              text-decoration: none;
-            }
+          .btn {
+            font-size: 1.5em;
+            font-weight: 900;
+            flex: 1 1 auto;
+            padding: 5px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 1s;
+            background-size: 200% auto;
+            color: black;
+            border-radius: 10px;
             box-shadow: 5px 5px 5px rgba(0,0,0,0.75);
+           }
+
+          .btn:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: white;
           }
-          button:hover{
-            background-color: rgb(184, 171, 155);
+          
+          .btn-1 {
+            background-image: linear-gradient(to bottom right, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%);
           }
         }
       }
