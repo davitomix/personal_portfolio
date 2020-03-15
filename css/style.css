@@ -107,6 +107,8 @@ body {
     .pjct-cont .pjct-box .pjct-content .pjct-skills {
       width: 100%;
       padding-top: 10px; }
+      .pjct-cont .pjct-box .pjct-content .pjct-skills div {
+        width: 100%; }
       .pjct-cont .pjct-box .pjct-content .pjct-skills .skill-logo {
         font-family: 'Roboto Condensed', sans-serif;
         text-transform: uppercase;
