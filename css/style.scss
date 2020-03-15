@@ -186,7 +186,11 @@ body{
             background-position: right center; /* change the direction of the change here */
             color: white;
           }
-          
+          .link-svg{
+            height: 40px;
+            width: 40px;
+            margin: 5px 5px 5px 5px;
+          }
           .btn-1 {
             background-image: linear-gradient(to bottom right, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%);
           }
