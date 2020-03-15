@@ -142,9 +142,10 @@ body {
           /* change the direction of the change here */
           color: white; }
         .pjct-cont .pjct-box .pjct-content .pjct-links .skill-link .link-svg {
-          height: 40px;
-          width: 40px;
-          margin: 5px 5px 5px 5px; }
+          height: 25px;
+          width: 25px;
+          margin: 5px 5px 5px 5px;
+          padding-bottom: 5px; }
         .pjct-cont .pjct-box .pjct-content .pjct-links .skill-link .btn-1 {
           background-image: linear-gradient(to bottom right, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%); }
 .pjct-cont .pjct-box:last-child {
