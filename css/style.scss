@@ -100,14 +100,14 @@ body{
   .pjct-box{
     margin: 10px 0 10px 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    .pjct-back{
+    .pjct-back-rockt{
       padding: 0;
       background:
         linear-gradient(to top, transparent, rgb(45, 100, 126) 150%),
         url(../assets/images/mob-mock-rockt-mx.png) no-repeat;
       background-position: 50% 0;
       background-size: cover;
-      .bckg-img{
+      .bckg-img-rockt{
         background: 
           linear-gradient(to top, transparent, rgb(45, 100, 126) 150%),
           url(../assets/images/mock-rockt-mx.png) no-repeat;
@@ -118,8 +118,31 @@ body{
         height: 100%;
       }
     }
-    .pjct-back:hover {
-      .bckg-img{
+    .pjct-back-rockt:hover {
+      .bckg-img-rockt{
+        opacity: 0;
+      }
+    }
+    .pjct-back-memb{
+      padding: 0;
+      background:
+        linear-gradient(to top, transparent, rgb(45, 100, 126) 150%),
+        url(../assets/images/mock-members.png) no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+      .bckg-img-memb{
+        background: 
+          linear-gradient(to top, transparent, rgb(45, 100, 126) 150%),
+          url(../assets/images/mock-members-2.png) no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+        transition: opacity 1s ease-in-out;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .pjct-back-memb:hover {
+      .bckg-img-memb{
         opacity: 0;
       }
     }
