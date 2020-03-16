@@ -29,6 +29,10 @@ body {
   .nav-cont nav li a:hover {
     border-bottom: 2px solid #373232;
     margin-bottom: 0; }
+  .nav-cont nav li {
+    margin: 5px 5px 5px 0; }
+  .nav-cont nav button {
+    border: 0; }
 
 .hdr-cont {
   background-color: aqua;
