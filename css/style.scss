@@ -1,3 +1,10 @@
+//Mixins.
+@mixin tab-phone{
+  @media only screen and (max-width:991px){
+    @content;
+  }
+}
+
 body{
   // Typo.
   font-family: 'Lora', Arial, Helvetica, sans-serif;
@@ -27,7 +34,14 @@ body{
 
 .nav-cont{
   padding: 0;
+  nav button{
+    border: 0;
+  }
+  nav li{
+    margin: 10px 5px;
+  }
   nav li a {
+    text-align: center;
     padding: 0;
     font-size: 1.2rem;
     transition: all 0.4s ease-in-out;
@@ -35,14 +49,21 @@ body{
     margin-bottom: 2px;
   }
   nav li a:hover {
-    border-bottom: 2px solid rgb(55, 50, 50);
+    border-bottom: 2px solid #7B7C7C;
     margin-bottom: 0;
   }
-  nav li{
-    margin: 5px 5px 5px 0;
-  }
-  nav button{
-    border: 0;
+  @include tab-phone {
+    nav li a{
+      border: 0;
+      padding: 10px 0;
+    }
+    nav li a:hover{
+      border-bottom: 5px solid rgba(150, 150, 150, .7);
+      border-right: 8px solid rgba(150, 150, 150, .7);
+      border-left: 1px solid rgba(150, 150, 150, .5);
+      border-top: 1px solid rgba(150, 150, 150, .5);
+      transition: all 0.4s ease-out;
+    }
   }
 }
 

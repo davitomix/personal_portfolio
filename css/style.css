@@ -20,19 +20,30 @@ body {
 
 .nav-cont {
   padding: 0; }
+  .nav-cont nav button {
+    border: 0; }
+  .nav-cont nav li {
+    margin: 10px 5px; }
   .nav-cont nav li a {
+    text-align: center;
     padding: 0;
     font-size: 1.2rem;
     transition: all 0.4s ease-in-out;
     cursor: pointer;
     margin-bottom: 2px; }
   .nav-cont nav li a:hover {
-    border-bottom: 2px solid #373232;
+    border-bottom: 2px solid #7B7C7C;
     margin-bottom: 0; }
-  .nav-cont nav li {
-    margin: 5px 5px 5px 0; }
-  .nav-cont nav button {
-    border: 0; }
+  @media only screen and (max-width: 991px) {
+    .nav-cont nav li a {
+      border: 0;
+      padding: 10px 0; }
+    .nav-cont nav li a:hover {
+      border-bottom: 5px solid rgba(150, 150, 150, 0.7);
+      border-right: 8px solid rgba(150, 150, 150, 0.7);
+      border-left: 1px solid rgba(150, 150, 150, 0.5);
+      border-top: 1px solid rgba(150, 150, 150, 0.5);
+      transition: all 0.4s ease-out; } }
 
 .hdr-cont {
   background-color: aqua;
