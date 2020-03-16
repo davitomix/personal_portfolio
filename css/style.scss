@@ -27,6 +27,17 @@ body{
 
 .nav-cont{
   padding: 0;
+  nav li a {
+    padding: 0;
+    font-size: 1.2rem;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 2px;
+  }
+  nav li a:hover {
+    border-bottom: 2px solid rgb(55, 50, 50);
+    margin-bottom: 0;
+  }
 }
 
 .hdr-cont{
