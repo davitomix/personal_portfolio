@@ -80,6 +80,12 @@ body {
     padding: 20px 0 20px 0; }
     .pjct-title .projects h2 {
       border-bottom: 7px solid #00FFFF; }
+  .pjct-title .cntct-info {
+    width: 100%;
+    height: 100%; }
+
+.cntct-cont {
+  min-height: 350px; }
 
 .pjct-cont .pjct-box:first-child {
   margin-top: 20px; }
@@ -247,10 +253,6 @@ body {
           background-image: linear-gradient(to bottom right, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%); }
 .pjct-cont .pjct-box:last-child {
   margin-bottom: 20px; }
-
-.cntct-cont {
-  background-color: aqua;
-  min-height: 350px; }
 
 .footr-cont {
   background-color: aquamarine;
