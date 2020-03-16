@@ -215,6 +215,29 @@ body{
         opacity: 0;
       }
     }
+    .pjct-back-apple{
+      padding: 0;
+      background:
+        linear-gradient(to top, transparent, rgb(45, 100, 126) 150%),
+        url(../assets/images/mock-apple-1.png) no-repeat;
+      background-position: 50% 0;
+      background-size: cover;
+      .bckg-img-apple{
+        background: 
+          linear-gradient(to top, transparent, rgb(45, 100, 126) 150%),
+          url(../assets/images/mock-apple-2.png) no-repeat;
+        background-position: 75% 0;
+        background-size: cover;
+        transition: opacity 1s ease-in-out;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .pjct-back-apple:hover {
+      .bckg-img-apple{
+        opacity: 0;
+      }
+    }
     .brdr-bckg-l-txt-r{
       border: 7px solid rgb(21, 116, 116);
       border-top-left-radius: 0;
