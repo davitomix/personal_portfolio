@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: 'Lora', Arial, Helvetica, sans-serif; }
   body a,
