@@ -301,6 +301,7 @@ body {
   margin-bottom: 20px; }
 
 .footr-cont {
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: aquamarine;
   text-align: left; }
   .footr-cont .made-by {
