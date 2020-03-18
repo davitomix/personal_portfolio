@@ -84,17 +84,16 @@ body{
 }
 
 .sub-hdr{
-  background-color: aquamarine;
     .bx-1{
-      background-color: blanchedalmond;
-      background:url(../assets/images/flame-teamwork.png) no-repeat;
-      background-position: right 53%;
-      background-size: 350px 280px;
+      // background-color: blanchedalmond;
+      // background:url(../assets/images/flame-teamwork.png) no-repeat;
+      // background-position: right 53%;
+      // background-size: 300px 280px;
       .bx-into-1{
         background-color: blanchedalmond;
-        background:url(../assets/images/flame-teamwork.png) no-repeat;
-        background-position: left 10%;
-        background-size: 350px 280px;
+        background:url(../assets/images/flame-searching.png) no-repeat;
+        background-position: right center;
+        background-size: 180px 150px;
         .info-skills{
           padding: 20px 0 20px 0;
           h2{
@@ -126,70 +125,89 @@ body{
 
 .pjct-title{
   background-color: blanchedalmond;
-  .projects{
-    padding: 20px 0 20px 0;
-    h2{
-      border-bottom: 7px solid #00FFFF;
-    }
-    p{
-      font-size: 1.5em;
+  background:url(../assets/images/flame-travel.png) no-repeat;
+  background-position: right 53%;
+  background-size: 350px 280px;
+  .pjct-box{
+    background-color: blanchedalmond;
+    background:url(../assets/images/flame-done.png) no-repeat;
+    background-position: left 35%;
+    background-size: 140px 150px;
+    .projects{
+      padding: 20px 0 20px 0;
+      h2{
+        border-bottom: 7px solid #00FFFF;
+      }
+      p{
+        font-size: 1.5em;
+      }
     }
   }
 }
 
 .cntct-cont{
-  .contacts{
-    h2{
-      border-bottom: 7px solid #00FFFF;
+    background-color: blanchedalmond;
+    background:url(../assets/images/flame-sign-up.png) no-repeat;
+    background-position: right bottom;
+    background-size: 220px 160px;
+  .cntct-box{
+    background-color: blanchedalmond;
+    background:url(../assets/images/flame-sentmessage.png) no-repeat;
+    background-position: left top;
+    background-size: 150px 130px;
+    .contacts{
+      h2{
+        border-bottom: 7px solid #00FFFF;
+      }
+      p{
+        text-align: center;
+        font-size: 2.0em;
+        font-weight: bold;
+      }
     }
-    p{
-      text-align: center;
-      font-size: 2.0em;
-      font-weight: bold;
+    .contacts:first-of-type{
+      padding: 20px 0;
     }
-  }
-  .contacts:first-of-type{
-    padding: 20px 0;
-  }
-  .contacts:last-of-type{
-    padding: 10px 0 20px 0;
-  }
-  .cntct-info{
-    ul{
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      .cntct-link{
-        float: left;
-        margin: 15px 5px;
-        .btn {
-          font-size: 1.5em;
-          font-weight: 900;
-          flex: 1 1 auto;
-          text-align: center;
-          text-transform: uppercase;
-          transition: 1s;
-          background-size: 200% auto;
-          border-radius: 5px;
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 6px;
-          text-decoration: none;
-          border: 0;
-         }
-        .btn:hover {
-          background-position: right center; /* change the direction of the change here */
-          background-color: #111111;
-        }
-        .cntct-svg{
-          height: 40px;
-          width: 40px;
-          margin: 5px 5px 5px 5px;
-        }
-        .btn-1 {
-          background-image: linear-gradient(to top left, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%);
+    .contacts:last-of-type{
+      padding: 10px 0 20px 0;
+    }
+    .cntct-info{
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        .cntct-link{
+          float: left;
+          margin: 15px 5px;
+          .btn {
+            font-size: 1.5em;
+            font-weight: 900;
+            flex: 1 1 auto;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 1s;
+            background-size: 200% auto;
+            border-radius: 5px;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 6px;
+            text-decoration: none;
+            border: 0;
+           }
+          .btn:hover {
+            background-position: right center; /* change the direction of the change here */
+            background-color: #111111;
+          }
+          .cntct-svg{
+            height: 40px;
+            width: 40px;
+            margin: 5px 5px 5px 5px;
+          }
+          .btn-1 {
+            background-image: linear-gradient(to top left, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%);
+          }
         }
       }
     }
