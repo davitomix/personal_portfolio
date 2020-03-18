@@ -19,8 +19,6 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5em; }
-  body p {
-    font-size: 1.2em; }
 
 .nav-cont {
   padding: 0; }
@@ -72,7 +70,8 @@ body {
   .sub-hdr .sub-txt {
     padding: 20px 20px 20px 20px; }
     .sub-hdr .sub-txt h3 {
-      font-size: 1.4em; }
+      font-size: 1.5em;
+      text-align: justify; }
   .sub-hdr .bx-1 {
     background-color: blanchedalmond; }
   .sub-hdr .bx-2 {
@@ -92,7 +91,9 @@ body {
 .cntct-cont .contacts h2 {
   border-bottom: 7px solid #00FFFF; }
 .cntct-cont .contacts p {
-  font-size: 1.5em; }
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold; }
 .cntct-cont .contacts:first-of-type {
   padding: 20px 0; }
 .cntct-cont .contacts:last-of-type {
@@ -248,7 +249,8 @@ body {
       padding-bottom: 15px; }
     .pjct-cont .pjct-box .pjct-content p {
       text-align: justify;
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      font-size: 1.3em; }
     .pjct-cont .pjct-box .pjct-content .pjct-skills {
       width: 100%;
       padding-top: 10px; }
@@ -300,6 +302,12 @@ body {
 
 .footr-cont {
   background-color: aquamarine;
-  min-height: 200px; }
+  text-align: left; }
+  .footr-cont .made-by {
+    font-size: .95em;
+    padding: 40px 0 30px 0; }
+  .footr-cont .credits-to {
+    font-size: .85em;
+    padding-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */

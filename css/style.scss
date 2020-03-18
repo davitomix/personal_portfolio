@@ -32,9 +32,6 @@ body{
     font-weight: bold;
     font-size: 2.5em;
   }
-  p{
-    font-size: 1.2em;
-  }
 }
 
 .nav-cont{
@@ -102,7 +99,8 @@ body{
   }
   .sub-txt{
     h3{
-      font-size: 1.4em;
+      font-size: 1.5em;
+      text-align: justify;
     }
     padding: 20px 20px 20px 20px;
   }
@@ -136,7 +134,9 @@ body{
       border-bottom: 7px solid #00FFFF;
     }
     p{
-      font-size: 1.5em;
+      text-align: center;
+      font-size: 2.0em;
+      font-weight: bold;
     }
   }
   .contacts:first-of-type{
@@ -365,6 +365,7 @@ body{
       p{
         text-align: justify;
         padding-bottom: 15px;
+        font-size: 1.3em;
       }
       padding: 20px;
       .pjct-skills{
@@ -433,5 +434,13 @@ body{
 
 .footr-cont{
   background-color: aquamarine;
-  min-height: 200px;
+  text-align: left;
+  .made-by{
+    font-size: .95em;
+    padding: 40px 0 30px 0;
+  }
+  .credits-to{
+    font-size: .85em;
+    padding-bottom: 10px;
+  }
 }
