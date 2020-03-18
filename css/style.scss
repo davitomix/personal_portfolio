@@ -6,6 +6,7 @@
 }
 html{scroll-behavior:smooth}
 body{
+  //background-color: red;
   // Typo.
   font-family: 'Lora', Arial, Helvetica, sans-serif;
   a,
@@ -36,6 +37,9 @@ body{
 
 .nav-cont{
   padding: 0;
+  nav{
+    background-color: #F8F8F8;
+  }
   nav button{
     border: 0;
   }
@@ -70,7 +74,7 @@ body{
 }
 
 .hdr-cont{
-  background-color: aqua;
+  background-color: #2EC4B6;
   text-align: center;
   h1{
     padding: 50px 0 20px 0;
