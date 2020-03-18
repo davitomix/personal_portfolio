@@ -72,7 +72,7 @@ body {
   .sub-hdr .sub-txt {
     padding: 20px 20px 20px 20px; }
     .sub-hdr .sub-txt h3 {
-      font-size: 1.5em; }
+      font-size: 1.4em; }
   .sub-hdr .bx-1 {
     background-color: blanchedalmond; }
   .sub-hdr .bx-2 {
@@ -88,39 +88,48 @@ body {
       border-bottom: 7px solid #00FFFF; }
     .pjct-title .projects p {
       font-size: 1.5em; }
-  .pjct-title .cntct-info ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; }
-    .pjct-title .cntct-info ul .cntct-link {
-      float: left;
-      margin: 15px 5px; }
-      .pjct-title .cntct-info ul .cntct-link .btn {
-        font-size: 1.5em;
-        font-weight: 900;
-        flex: 1 1 auto;
-        text-align: center;
-        text-transform: uppercase;
-        transition: 1s;
-        background-size: 200% auto;
-        border-radius: 5px;
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 6px;
-        text-decoration: none;
-        border: 0; }
-      .pjct-title .cntct-info ul .cntct-link .btn:hover {
-        background-position: right center;
-        /* change the direction of the change here */
-        background-color: #111111; }
-      .pjct-title .cntct-info ul .cntct-link .cntct-svg {
-        height: 40px;
-        width: 40px;
-        margin: 5px 5px 5px 5px; }
-      .pjct-title .cntct-info ul .cntct-link .btn-1 {
-        background-image: linear-gradient(to top left, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%); }
+
+.cntct-cont .contacts h2 {
+  border-bottom: 7px solid #00FFFF; }
+.cntct-cont .contacts p {
+  font-size: 1.5em; }
+.cntct-cont .contacts:first-of-type {
+  padding: 20px 0; }
+.cntct-cont .contacts:last-of-type {
+  padding: 10px 0 20px 0; }
+.cntct-cont .cntct-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  .cntct-cont .cntct-info ul .cntct-link {
+    float: left;
+    margin: 15px 5px; }
+    .cntct-cont .cntct-info ul .cntct-link .btn {
+      font-size: 1.5em;
+      font-weight: 900;
+      flex: 1 1 auto;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 1s;
+      background-size: 200% auto;
+      border-radius: 5px;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 6px;
+      text-decoration: none;
+      border: 0; }
+    .cntct-cont .cntct-info ul .cntct-link .btn:hover {
+      background-position: right center;
+      /* change the direction of the change here */
+      background-color: #111111; }
+    .cntct-cont .cntct-info ul .cntct-link .cntct-svg {
+      height: 40px;
+      width: 40px;
+      margin: 5px 5px 5px 5px; }
+    .cntct-cont .cntct-info ul .cntct-link .btn-1 {
+      background-image: linear-gradient(to top left, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%); }
 
 .pjct-cont .pjct-box:first-child {
   margin-top: 20px; }

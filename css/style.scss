@@ -102,7 +102,7 @@ body{
   }
   .sub-txt{
     h3{
-      font-size: 1.5em;
+      font-size: 1.4em;
     }
     padding: 20px 20px 20px 20px;
   }
@@ -127,6 +127,23 @@ body{
     p{
       font-size: 1.5em;
     }
+  }
+}
+
+.cntct-cont{
+  .contacts{
+    h2{
+      border-bottom: 7px solid #00FFFF;
+    }
+    p{
+      font-size: 1.5em;
+    }
+  }
+  .contacts:first-of-type{
+    padding: 20px 0;
+  }
+  .contacts:last-of-type{
+    padding: 10px 0 20px 0;
   }
   .cntct-info{
     ul{
