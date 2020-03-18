@@ -59,10 +59,20 @@ body {
 
 .sub-hdr {
   background-color: aquamarine; }
-  .sub-hdr .info-skills {
-    padding: 20px 0 20px 0; }
-    .sub-hdr .info-skills h2 {
-      border-bottom: 7px solid #00FFFF; }
+  .sub-hdr .bx-1 {
+    background-color: blanchedalmond;
+    background: url(../assets/images/flame-teamwork.png) no-repeat;
+    background-position: right 53%;
+    background-size: 350px 280px; }
+    .sub-hdr .bx-1 .bx-into-1 {
+      background-color: blanchedalmond;
+      background: url(../assets/images/flame-teamwork.png) no-repeat;
+      background-position: left 10%;
+      background-size: 350px 280px; }
+      .sub-hdr .bx-1 .bx-into-1 .info-skills {
+        padding: 20px 0 20px 0; }
+        .sub-hdr .bx-1 .bx-into-1 .info-skills h2 {
+          border-bottom: 7px solid #00FFFF; }
   .sub-hdr .sub-cover {
     padding: 20px 0 20px 0; }
     .sub-hdr .sub-cover img {
@@ -72,8 +82,6 @@ body {
     .sub-hdr .sub-txt h3 {
       font-size: 1.5em;
       text-align: justify; }
-  .sub-hdr .bx-1 {
-    background-color: blanchedalmond; }
   .sub-hdr .bx-2 {
     background-color: brown; }
   .sub-hdr .bx-3 {
