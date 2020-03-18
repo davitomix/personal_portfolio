@@ -310,5 +310,17 @@ body {
   .footr-cont .credits-to {
     font-size: .85em;
     padding-bottom: 10px; }
+    .footr-cont .credits-to li a {
+      color: black;
+      text-decoration: none;
+      text-align: center;
+      padding: 0;
+      transition: all 0.4s ease-in-out;
+      cursor: pointer;
+      margin-bottom: 2px; }
+    .footr-cont .credits-to li a:hover {
+      color: #7B7C7C;
+      border-bottom: 2px solid #7B7C7C;
+      margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
