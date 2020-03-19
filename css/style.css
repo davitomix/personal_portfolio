@@ -30,21 +30,22 @@ body {
   padding: 0; }
   .nav-cont nav {
     background-color: #F8F8F8; }
-  .nav-cont nav button {
-    border: 0; }
-  .nav-cont nav li {
-    margin: 10px 5px; }
-  .nav-cont nav li a {
-    text-align: center;
-    padding: 0;
-    font-size: 1.2rem;
-    transition: all 0.4s ease-in-out;
-    cursor: pointer;
-    margin-bottom: 2px; }
-  .nav-cont nav li a:hover {
-    border-bottom: 2px solid #2F404E;
-    margin-bottom: 0;
-    color: #2F404E; }
+    .nav-cont nav button {
+      border: 0;
+      background-color: #F8F8F8; }
+    .nav-cont nav li {
+      margin: 10px 5px; }
+      .nav-cont nav li a {
+        text-align: center;
+        padding: 0;
+        font-size: 1.2rem;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+        margin-bottom: 2px; }
+      .nav-cont nav li a:hover {
+        border-bottom: 2px solid #2F404E;
+        margin-bottom: 0;
+        color: #2F404E; }
   @media only screen and (max-width: 991px) {
     .nav-cont nav li a {
       border: 0;
@@ -61,7 +62,7 @@ body {
   text-align: center;
   color: #2F404E; }
   .hdr-cont h1 {
-    padding: 50px 0 20px 0; }
+    padding: 150px 0 90px 0; }
   .hdr-cont h3:last-of-type {
     padding: 20px; }
   .hdr-cont .hdr-cover {

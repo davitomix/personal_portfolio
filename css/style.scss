@@ -41,25 +41,26 @@ body{
   padding: 0;
   nav{
     background-color: #F8F8F8;
-  }
-  nav button{
-    border: 0;
-  }
-  nav li{
-    margin: 10px 5px;
-  }
-  nav li a {
-    text-align: center;
-    padding: 0;
-    font-size: 1.2rem;
-    transition: all 0.4s ease-in-out;
-    cursor: pointer;
-    margin-bottom: 2px;
-  }
-  nav li a:hover {
-    border-bottom: 2px solid #2F404E;
-    margin-bottom: 0;
-    color: #2F404E;
+    button{
+      border: 0;
+      background-color: #F8F8F8;
+    }
+    li{
+      margin: 10px 5px;
+      a {
+        text-align: center;
+        padding: 0;
+        font-size: 1.2rem;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+        margin-bottom: 2px;
+      }
+      a:hover {
+        border-bottom: 2px solid #2F404E;
+        margin-bottom: 0;
+        color: #2F404E;
+      }
+    }
   }
   @include tab-phone {
     nav li a{
@@ -81,7 +82,7 @@ body{
   text-align: center;
   color: #2F404E;
   h1{
-    padding: 50px 0 20px 0;
+    padding: 150px 0 90px 0;
   }
   h3:last-of-type{
     padding: 20px;
