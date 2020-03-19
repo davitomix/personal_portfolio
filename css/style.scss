@@ -1,4 +1,12 @@
+//Mixins.
+@mixin tab-phone{
+  @media only screen and (max-width:991px){
+    @content;
+  }
+}
+html{scroll-behavior:smooth}
 body{
+  background-color: #F8F8F8;
   // Typo.
   font-family: 'Lora', Arial, Helvetica, sans-serif;
   a,
@@ -6,6 +14,7 @@ body{
   h2{
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
+    color: #2F404E;
   }
   h1{
     font-size: 4em;
@@ -17,34 +26,63 @@ body{
   }
   h3{
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.8em;
   }
   h4{
+    text-align: center;
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5em;
+    color: #2F404E;
   }
 }
 
 .nav-cont{
   padding: 0;
-  nav li a {
-    padding: 0;
-    font-size: 1.2rem;
-    transition: all 0.4s ease-in-out;
-    cursor: pointer;
-    margin-bottom: 2px;
+  nav{
+    background-color: #F8F8F8;
+    button{
+      border: 0;
+      background-color: #F8F8F8;
+    }
+    li{
+      margin: 10px 5px;
+      a {
+        text-align: center;
+        padding: 0;
+        font-size: 1.2rem;
+        transition: all 0.4s ease-in-out;
+        cursor: pointer;
+        margin-bottom: 2px;
+      }
+      a:hover {
+        border-bottom: 2px solid #2F404E;
+        margin-bottom: 0;
+        color: #2F404E;
+      }
+    }
   }
-  nav li a:hover {
-    border-bottom: 2px solid rgb(55, 50, 50);
-    margin-bottom: 0;
+  @include tab-phone {
+    nav li a{
+      border: 0;
+      padding: 10px 0;
+    }
+    nav li a:hover{
+      border-bottom: 5px solid rgba(150, 150, 150, .7);
+      border-right: 8px solid rgba(150, 150, 150, .7);
+      border-left: 1px solid rgba(150, 150, 150, .5);
+      border-top: 1px solid rgba(150, 150, 150, .5);
+      transition: all 0.4s ease-out;
+    }
   }
 }
 
 .hdr-cont{
-  background-color: aqua;
+  background-color: #2EC4B6;
   text-align: center;
+  color: #2F404E;
   h1{
-    padding: 50px 0 20px 0;
+    padding: 150px 0 90px 0;
   }
   h3:last-of-type{
     padding: 20px;
@@ -55,12 +93,23 @@ body{
 }
 
 .sub-hdr{
-  background-color: aquamarine;
-  .info-skills{
-    padding: 20px 0 20px 0;
-    h2{
-      border-bottom: 7px solid #00FFFF;
-    }
+    .bx-1{
+      // background-color: blanchedalmond;
+      // background:url(../assets/images/flame-teamwork.png) no-repeat;
+      // background-position: right 53%;
+      // background-size: 300px 280px;
+      .bx-into-1{
+        background-color: blanchedalmond;
+        background:url(../assets/images/flame-searching.png) no-repeat;
+        background-position: right center;
+        background-size: 180px 150px;
+        .info-skills{
+          padding: 20px 0 20px 0;
+          h2{
+            border-bottom: 7px solid #2EC4B6;
+          }
+        }
+      }
   }
   .sub-cover{
     img{
@@ -69,25 +118,106 @@ body{
     padding: 20px 0 20px 0;
   }
   .sub-txt{
+    h3{
+      font-size: 1.5em;
+      text-align: justify;
+    }
     padding: 20px 20px 20px 20px;
   }
-  .bx-1{
-    background-color: blanchedalmond;
-  }
   .bx-2{
-    background-color: brown;
+    background-color: #931323;
   }
   .bx-3{
-    background-color: cornflowerblue;
+    background-color: #FF9F1C;
   }
 }
 
 .pjct-title{
   background-color: blanchedalmond;
-  .projects{
-    padding: 20px 0 20px 0;
-    h2{
-      border-bottom: 7px solid #00FFFF;
+  background:url(../assets/images/flame-travel.png) no-repeat;
+  background-position: right 53%;
+  background-size: 350px 280px;
+  .pjct-box{
+    background-color: blanchedalmond;
+    background:url(../assets/images/flame-done.png) no-repeat;
+    background-position: left 35%;
+    background-size: 140px 150px;
+    .projects{
+      padding: 20px 0 20px 0;
+      h2{
+        border-bottom: 7px solid #2EC4B6;
+      }
+      p{
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+.cntct-cont{
+  background-color: blanchedalmond;
+  background:url(../assets/images/flame-sign-up.png) no-repeat;
+  background-position: right bottom;
+  background-size: 220px 160px;
+  .cntct-box{
+    background-color: blanchedalmond;
+    background:url(../assets/images/flame-sentmessage.png) no-repeat;
+    background-position: left top;
+    background-size: 150px 130px;
+    .contacts{
+      h2{
+        border-bottom: 7px solid #2EC4B6;
+      }
+      p{
+        text-align: center;
+        font-size: 2.0em;
+        font-weight: bold;
+      }
+    }
+    .contacts:first-of-type{
+      padding: 20px 0;
+    }
+    .contacts:last-of-type{
+      padding: 10px 0 20px 0;
+    }
+    .cntct-info{
+      ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        .cntct-link{
+          float: left;
+          margin: 15px 5px;
+          .btn {
+            font-size: 1.5em;
+            font-weight: 900;
+            flex: 1 1 auto;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 1s;
+            background-size: 200% auto;
+            border-radius: 5px;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 6px;
+            text-decoration: none;
+            border: 0;
+          }
+          .btn:hover {
+            background-position: right center; /* change the direction of the change here */
+          }
+          .cntct-svg{
+            height: 40px;
+            width: 40px;
+            margin: 5px 5px 5px 5px;
+          }
+          .btn-1 {
+            background-image: linear-gradient(to bottom right, rgba(168,158,160,1) 0%, rgba(255,159,28,1) 100%);
+          }
+        }
+      }
     }
   }
 }
@@ -250,24 +380,30 @@ body{
       }
     }
     .brdr-bckg-l-txt-r{
-      border: 7px solid rgb(21, 116, 116);
+      border: 7px solid #2EC4B6;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
     }
     .brdr-txt-l-bckg-r{
-      border: 7px solid rgb(21, 116, 116);
+      border: 7px solid #2EC4B6;
       border-top-left-radius: 10px;
       border-bottom-left-radius: 10px;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
     }
     .pjct-content{
-      h4,
+      background-color: #2F404E;
+      h4{
+        padding-bottom: 15px;
+        color: #E8EAE8;
+      }
       p{
         text-align: justify;
         padding-bottom: 15px;
+        font-size: 1.3em;
+        color: #E8EAE8;
       }
       padding: 20px;
       .pjct-skills{
@@ -282,6 +418,7 @@ body{
           border-radius: 5px;
           padding: 2px;
           margin: 7.5px;
+          color: #E8EAE8;
           .skill-svg{
             height: 40px;
             width: 40px;
@@ -314,7 +451,7 @@ body{
            }
           .btn:hover {
             background-position: right center; /* change the direction of the change here */
-            color: white;
+            color: #E8EAE8;
           }
           .link-svg{
             height: 25px;
@@ -323,7 +460,7 @@ body{
             padding-bottom: 5px;
           }
           .btn-1 {
-            background-image: linear-gradient(to bottom right, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%);
+            background-image: linear-gradient(to top left, rgba(28,10,13,1) 0%, rgba(46,196,182,1) 54%, rgba(47,64,78,1) 100%);
           }
         }
       }
@@ -334,12 +471,38 @@ body{
   }
 }
 
-.cntct-cont{
-  background-color: aqua;
-  min-height: 350px;
-}
-
 .footr-cont{
-  background-color: aquamarine;
-  min-height: 200px;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #2EC4B6;
+  text-align: left;
+  .made-by{
+    background-color: blanchedalmond;
+    background:url(../assets/images/flame-4.png) no-repeat;
+    background-position: 78.5% 80%;
+    background-size: 220px 192px;
+    font-size: .95em;
+    padding: 40px 0 30px 0;
+  }
+  .credits-to{
+    font-size: .85em;
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+    background:url(../assets/images/flame-waiting.png) no-repeat;
+    background-position: 38.5% top;
+    background-size: 155px 122px;
+    li a {
+      color: black;
+      text-decoration: none;
+      text-align: center;
+      padding: 0;
+      transition: all 0.4s ease-in-out;
+      cursor: pointer;
+      margin-bottom: 2px;
+    }
+    li a:hover {
+      color: #FF9F1C;
+      border-bottom: 2px solid #FF9F1C;
+      margin-bottom: 0;
+    }
+  }
 }
