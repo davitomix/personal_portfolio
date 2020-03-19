@@ -159,7 +159,7 @@ body {
           width: 40px;
           margin: 5px 5px 5px 5px; }
         .cntct-cont .cntct-box .cntct-info ul .cntct-link .btn-1 {
-          background-image: linear-gradient(to bottom right, #1c0a0d 0%, #2ec4b6 54%, #2f404e 100%); }
+          background-image: linear-gradient(to bottom right, #a89ea0 0%, #ff9f1c 100%); }
 
 .pjct-cont .pjct-box:first-child {
   margin-top: 20px; }
@@ -273,13 +273,16 @@ body {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0; }
   .pjct-cont .pjct-box .pjct-content {
+    background-color: #2F404E;
     padding: 20px; }
     .pjct-cont .pjct-box .pjct-content h4 {
-      padding-bottom: 15px; }
+      padding-bottom: 15px;
+      color: #E8EAE8; }
     .pjct-cont .pjct-box .pjct-content p {
       text-align: justify;
       padding-bottom: 15px;
-      font-size: 1.3em; }
+      font-size: 1.3em;
+      color: #E8EAE8; }
     .pjct-cont .pjct-box .pjct-content .pjct-skills {
       width: 100%;
       padding-top: 10px; }
@@ -290,7 +293,8 @@ body {
         text-transform: uppercase;
         border-radius: 5px;
         padding: 2px;
-        margin: 7.5px; }
+        margin: 7.5px;
+        color: #E8EAE8; }
         .pjct-cont .pjct-box .pjct-content .pjct-skills .skill-logo .skill-svg {
           height: 40px;
           width: 40px;
@@ -319,7 +323,7 @@ body {
         .pjct-cont .pjct-box .pjct-content .pjct-links .skill-link .btn:hover {
           background-position: right center;
           /* change the direction of the change here */
-          color: #EFF0EF; }
+          color: #E8EAE8; }
         .pjct-cont .pjct-box .pjct-content .pjct-links .skill-link .link-svg {
           height: 25px;
           width: 25px;
@@ -335,11 +339,19 @@ body {
   background-color: #2EC4B6;
   text-align: left; }
   .footr-cont .made-by {
+    background-color: blanchedalmond;
+    background: url(../assets/images/flame-4.png) no-repeat;
+    background-position: 78.5% 80%;
+    background-size: 220px 192px;
     font-size: .95em;
     padding: 40px 0 30px 0; }
   .footr-cont .credits-to {
     font-size: .85em;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    background-color: blanchedalmond;
+    background: url(../assets/images/flame-waiting.png) no-repeat;
+    background-position: 38.5% top;
+    background-size: 155px 122px; }
     .footr-cont .credits-to li a {
       color: black;
       text-decoration: none;

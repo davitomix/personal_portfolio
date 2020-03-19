@@ -214,7 +214,7 @@ body{
             margin: 5px 5px 5px 5px;
           }
           .btn-1 {
-            background-image: linear-gradient(to bottom right, rgba(28,10,13,1) 0%, rgba(46,196,182,1) 54%, rgba(47,64,78,1) 100%);
+            background-image: linear-gradient(to bottom right, rgba(168,158,160,1) 0%, rgba(255,159,28,1) 100%);
           }
         }
       }
@@ -394,13 +394,16 @@ body{
       border-bottom-right-radius: 0;
     }
     .pjct-content{
+      background-color: #2F404E;
       h4{
         padding-bottom: 15px;
+        color: #E8EAE8;
       }
       p{
         text-align: justify;
         padding-bottom: 15px;
         font-size: 1.3em;
+        color: #E8EAE8;
       }
       padding: 20px;
       .pjct-skills{
@@ -415,6 +418,7 @@ body{
           border-radius: 5px;
           padding: 2px;
           margin: 7.5px;
+          color: #E8EAE8;
           .skill-svg{
             height: 40px;
             width: 40px;
@@ -447,7 +451,7 @@ body{
            }
           .btn:hover {
             background-position: right center; /* change the direction of the change here */
-            color: #EFF0EF;
+            color: #E8EAE8;
           }
           .link-svg{
             height: 25px;
@@ -472,12 +476,20 @@ body{
   background-color: #2EC4B6;
   text-align: left;
   .made-by{
+    background-color: blanchedalmond;
+    background:url(../assets/images/flame-4.png) no-repeat;
+    background-position: 78.5% 80%;
+    background-size: 220px 192px;
     font-size: .95em;
     padding: 40px 0 30px 0;
   }
   .credits-to{
     font-size: .85em;
     padding-bottom: 10px;
+    background-color: blanchedalmond;
+    background:url(../assets/images/flame-waiting.png) no-repeat;
+    background-position: 38.5% top;
+    background-size: 155px 122px;
     li a {
       color: black;
       text-decoration: none;
