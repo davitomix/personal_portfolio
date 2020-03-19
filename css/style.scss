@@ -10,6 +10,12 @@
     @content;
   }
 }
+
+@mixin sm-size{
+  @media only screen and (max-width:575px){
+    @content;
+  }
+}
 html{scroll-behavior:smooth}
 body{
   background-color: #F8F8F8;
@@ -105,6 +111,12 @@ body{
       // background-position: right 53%;
       // background-size: 300px 280px;
       .bx-into-1{
+        @include sm-size() {
+          background-color: blanchedalmond;
+          background:url(../assets/images/flame-searching.png) no-repeat;
+          background-position: right center;
+          background-size: 130px 120px;
+        }
         background-color: blanchedalmond;
         background:url(../assets/images/flame-searching.png) no-repeat;
         background-position: right center;
@@ -148,6 +160,12 @@ body{
   background-position: right 53%;
   background-size: 350px 280px;
   .pjct-box{
+    @include sm-size() {
+      background-color: blanchedalmond;
+      background:url(../assets/images/flame-done.png) no-repeat;
+      background-position: left center;
+      background-size: 120px 130px;
+    }
     background-color: blanchedalmond;
     background:url(../assets/images/flame-done.png) no-repeat;
     background-position: left 35%;
@@ -503,6 +521,17 @@ body{
       background-position: 75% top !important;
       background-size: 155px 122px;
     }
+    @include sm-size() {
+      .made-by{
+        background-image: none !important;
+      }   
+      .credits-to{
+        background-color: blanchedalmond;
+        background:url(../assets/images/flame-waiting.png) no-repeat;
+        background-position: right top !important;
+        background-size: 153px 102px;
+      }
+     }
    }
   .made-by{
     background-color: blanchedalmond;

@@ -73,6 +73,12 @@ body {
   background: url(../assets/images/flame-searching.png) no-repeat;
   background-position: right center;
   background-size: 180px 150px; }
+  @media only screen and (max-width: 575px) {
+    .sub-hdr .bx-1 .bx-into-1 {
+      background-color: blanchedalmond;
+      background: url(../assets/images/flame-searching.png) no-repeat;
+      background-position: right center;
+      background-size: 130px 120px; } }
   .sub-hdr .bx-1 .bx-into-1 .info-skills {
     padding: 20px 0 20px 0; }
     .sub-hdr .bx-1 .bx-into-1 .info-skills h2 {
@@ -104,6 +110,12 @@ body {
     background: url(../assets/images/flame-done.png) no-repeat;
     background-position: left 35%;
     background-size: 140px 150px; }
+    @media only screen and (max-width: 575px) {
+      .pjct-title .pjct-box {
+        background-color: blanchedalmond;
+        background: url(../assets/images/flame-done.png) no-repeat;
+        background-position: left center;
+        background-size: 120px 130px; } }
     .pjct-title .pjct-box .projects {
       padding: 20px 0 20px 0; }
       .pjct-title .pjct-box .projects h2 {
@@ -357,6 +369,15 @@ body {
       background: url(../assets/images/flame-waiting.png) no-repeat;
       background-position: 75% top !important;
       background-size: 155px 122px; } }
+@media only screen and (max-width: 991px) and (max-width: 575px) {
+  .footr-cont .made-by {
+    background-image: none !important; }
+  .footr-cont .credits-to {
+    background-color: blanchedalmond;
+    background: url(../assets/images/flame-waiting.png) no-repeat;
+    background-position: right top !important;
+    background-size: 153px 102px; } }
+
   .footr-cont .made-by {
     background-color: blanchedalmond;
     background: url(../assets/images/flame-4.png) no-repeat;
