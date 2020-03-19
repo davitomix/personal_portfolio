@@ -91,6 +91,9 @@ body {
 .sub-hdr .bx-3 {
   background-color: #FF9F1C; }
 
+@media only screen and (max-width: 767px) {
+  .pjct-title {
+    background-image: none !important; } }
 .pjct-title {
   background-color: blanchedalmond;
   background: url(../assets/images/flame-travel.png) no-repeat;
@@ -108,22 +111,27 @@ body {
       .pjct-title .pjct-box .projects p {
         font-size: 1.5em; }
 
+@media only screen and (max-width: 991px) {
+  .cntct-cont {
+    background-image: none !important; } }
 .cntct-cont {
   background-color: blanchedalmond;
   background: url(../assets/images/flame-sign-up.png) no-repeat;
   background-position: right bottom;
-  background-size: 160px 100px; }
+  background-size: 220px 160px; }
   .cntct-cont .cntct-box {
     background-color: blanchedalmond;
     background: url(../assets/images/flame-sentmessage.png) no-repeat;
     background-position: left top;
-    background-size: 150px 130px; }
-    .cntct-cont .cntct-box .contacts h2 {
-      border-bottom: 7px solid #2EC4B6; }
-    .cntct-cont .cntct-box .contacts p {
-      text-align: center;
-      font-size: 1.5em;
-      font-weight: bold; }
+    background-size: 200px 150px; }
+    .cntct-cont .cntct-box .contacts {
+      text-align: center; }
+      .cntct-cont .cntct-box .contacts h2 {
+        border-bottom: 7px solid #2EC4B6; }
+      .cntct-cont .cntct-box .contacts p {
+        width: 70%;
+        font-size: 2em;
+        font-weight: bold; }
     .cntct-cont .cntct-box .contacts:first-of-type {
       padding: 20px 0; }
     .cntct-cont .cntct-box .contacts:last-of-type {
@@ -338,6 +346,17 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: #2EC4B6;
   text-align: left; }
+  @media only screen and (max-width: 991px) {
+    .footr-cont .made-by {
+      background-color: blanchedalmond;
+      background: url(../assets/images/flame-4.png) no-repeat;
+      background-position: right 80% !important;
+      background-size: 220px 192px; }
+    .footr-cont .credits-to {
+      background-color: blanchedalmond;
+      background: url(../assets/images/flame-waiting.png) no-repeat;
+      background-position: 75% top !important;
+      background-size: 155px 122px; } }
   .footr-cont .made-by {
     background-color: blanchedalmond;
     background: url(../assets/images/flame-4.png) no-repeat;
