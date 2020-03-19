@@ -6,7 +6,7 @@
 }
 html{scroll-behavior:smooth}
 body{
-  //background-color: red;
+  background-color: #F8F8F8;
   // Typo.
   font-family: 'Lora', Arial, Helvetica, sans-serif;
   a,
@@ -14,6 +14,7 @@ body{
   h2{
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
+    color: #2F404E;
   }
   h1{
     font-size: 4em;
@@ -32,6 +33,7 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5em;
+    color: #2F404E;
   }
 }
 
@@ -55,8 +57,9 @@ body{
     margin-bottom: 2px;
   }
   nav li a:hover {
-    border-bottom: 2px solid #7B7C7C;
+    border-bottom: 2px solid #2F404E;
     margin-bottom: 0;
+    color: #2F404E;
   }
   @include tab-phone {
     nav li a{
@@ -76,6 +79,7 @@ body{
 .hdr-cont{
   background-color: #2EC4B6;
   text-align: center;
+  color: #2F404E;
   h1{
     padding: 50px 0 20px 0;
   }
@@ -101,7 +105,7 @@ body{
         .info-skills{
           padding: 20px 0 20px 0;
           h2{
-            border-bottom: 7px solid #00FFFF;
+            border-bottom: 7px solid #2EC4B6;
           }
         }
       }
@@ -120,10 +124,10 @@ body{
     padding: 20px 20px 20px 20px;
   }
   .bx-2{
-    background-color: brown;
+    background-color: #931323;
   }
   .bx-3{
-    background-color: cornflowerblue;
+    background-color: #FF9F1C;
   }
 }
 
@@ -140,7 +144,7 @@ body{
     .projects{
       padding: 20px 0 20px 0;
       h2{
-        border-bottom: 7px solid #00FFFF;
+        border-bottom: 7px solid #2EC4B6;
       }
       p{
         font-size: 1.5em;
@@ -161,7 +165,7 @@ body{
     background-size: 150px 130px;
     .contacts{
       h2{
-        border-bottom: 7px solid #00FFFF;
+        border-bottom: 7px solid #2EC4B6;
       }
       p{
         text-align: center;
@@ -465,7 +469,7 @@ body{
 
 .footr-cont{
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: aquamarine;
+  background-color: #2EC4B6;
   text-align: left;
   .made-by{
     font-size: .95em;
@@ -484,8 +488,8 @@ body{
       margin-bottom: 2px;
     }
     li a:hover {
-      color: #7B7C7C;
-      border-bottom: 2px solid #7B7C7C;
+      color: #FF9F1C;
+      border-bottom: 2px solid #FF9F1C;
       margin-bottom: 0;
     }
   }

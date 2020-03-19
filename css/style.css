@@ -2,12 +2,14 @@ html {
   scroll-behavior: smooth; }
 
 body {
+  background-color: #F8F8F8;
   font-family: 'Lora', Arial, Helvetica, sans-serif; }
   body a,
   body h1,
   body h2 {
     font-weight: bold;
-    font-family: 'Roboto Condensed', sans-serif; }
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2F404E; }
   body h1 {
     font-size: 4em;
     text-transform: uppercase; }
@@ -21,7 +23,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 2.5em; }
+    font-size: 2.5em;
+    color: #2F404E; }
 
 .nav-cont {
   padding: 0; }
@@ -39,8 +42,9 @@ body {
     cursor: pointer;
     margin-bottom: 2px; }
   .nav-cont nav li a:hover {
-    border-bottom: 2px solid #7B7C7C;
-    margin-bottom: 0; }
+    border-bottom: 2px solid #2F404E;
+    margin-bottom: 0;
+    color: #2F404E; }
   @media only screen and (max-width: 991px) {
     .nav-cont nav li a {
       border: 0;
@@ -54,7 +58,8 @@ body {
 
 .hdr-cont {
   background-color: #2EC4B6;
-  text-align: center; }
+  text-align: center;
+  color: #2F404E; }
   .hdr-cont h1 {
     padding: 50px 0 20px 0; }
   .hdr-cont h3:last-of-type {
@@ -70,7 +75,7 @@ body {
   .sub-hdr .bx-1 .bx-into-1 .info-skills {
     padding: 20px 0 20px 0; }
     .sub-hdr .bx-1 .bx-into-1 .info-skills h2 {
-      border-bottom: 7px solid #00FFFF; }
+      border-bottom: 7px solid #2EC4B6; }
 .sub-hdr .sub-cover {
   padding: 20px 0 20px 0; }
   .sub-hdr .sub-cover img {
@@ -81,9 +86,9 @@ body {
     font-size: 1.5em;
     text-align: justify; }
 .sub-hdr .bx-2 {
-  background-color: brown; }
+  background-color: #931323; }
 .sub-hdr .bx-3 {
-  background-color: cornflowerblue; }
+  background-color: #FF9F1C; }
 
 .pjct-title {
   background-color: blanchedalmond;
@@ -98,7 +103,7 @@ body {
     .pjct-title .pjct-box .projects {
       padding: 20px 0 20px 0; }
       .pjct-title .pjct-box .projects h2 {
-        border-bottom: 7px solid #00FFFF; }
+        border-bottom: 7px solid #2EC4B6; }
       .pjct-title .pjct-box .projects p {
         font-size: 1.5em; }
 
@@ -113,7 +118,7 @@ body {
     background-position: left top;
     background-size: 150px 130px; }
     .cntct-cont .cntct-box .contacts h2 {
-      border-bottom: 7px solid #00FFFF; }
+      border-bottom: 7px solid #2EC4B6; }
     .cntct-cont .cntct-box .contacts p {
       text-align: center;
       font-size: 2.0em;
@@ -326,7 +331,7 @@ body {
 
 .footr-cont {
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: aquamarine;
+  background-color: #2EC4B6;
   text-align: left; }
   .footr-cont .made-by {
     font-size: .95em;
@@ -343,8 +348,8 @@ body {
       cursor: pointer;
       margin-bottom: 2px; }
     .footr-cont .credits-to li a:hover {
-      color: #7B7C7C;
-      border-bottom: 2px solid #7B7C7C;
+      color: #FF9F1C;
+      border-bottom: 2px solid #FF9F1C;
       margin-bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */
