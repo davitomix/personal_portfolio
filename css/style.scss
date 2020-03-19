@@ -207,7 +207,6 @@ body{
           }
           .btn:hover {
             background-position: right center; /* change the direction of the change here */
-            background-color: #111111;
           }
           .cntct-svg{
             height: 40px;
@@ -215,7 +214,7 @@ body{
             margin: 5px 5px 5px 5px;
           }
           .btn-1 {
-            background-image: linear-gradient(to top left, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%);
+            background-image: linear-gradient(to bottom right, rgba(28,10,13,1) 0%, rgba(46,196,182,1) 54%, rgba(47,64,78,1) 100%);
           }
         }
       }
@@ -448,7 +447,7 @@ body{
            }
           .btn:hover {
             background-position: right center; /* change the direction of the change here */
-            //color: white;
+            color: #EFF0EF;
           }
           .link-svg{
             height: 25px;
@@ -457,7 +456,7 @@ body{
             padding-bottom: 5px;
           }
           .btn-1 {
-            background-image: linear-gradient(to top left, #FF3A00 0%, #ff3a00 15%, #10294c 82%, #10294C 100%);
+            background-image: linear-gradient(to top left, rgba(28,10,13,1) 0%, rgba(46,196,182,1) 54%, rgba(47,64,78,1) 100%);
           }
         }
       }
