@@ -90,8 +90,8 @@ body {
 .sub-hdr .sub-txt {
   padding: 20px 20px 20px 20px; }
   .sub-hdr .sub-txt h3 {
-    font-size: 1.5em;
-    text-align: justify; }
+    font-size: 1.35em;
+    text-align: left; }
 .sub-hdr .bx-2 {
   background-color: #931323; }
 .sub-hdr .bx-3 {
@@ -299,9 +299,9 @@ body {
       padding-bottom: 15px;
       color: #E8EAE8; }
     .pjct-cont .pjct-box .pjct-content p {
-      text-align: justify;
+      text-align: center;
       padding-bottom: 15px;
-      font-size: 1.3em;
+      font-size: 1.35em;
       color: #E8EAE8; }
     .pjct-cont .pjct-box .pjct-content .pjct-skills {
       width: 100%;
