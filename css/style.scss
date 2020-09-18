@@ -257,10 +257,10 @@ body{
 }
 
 .cntct-info-2{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding-right: 10px;
@@ -292,7 +292,7 @@ body{
       .cntct-svg{
         height: 20px;
         width: 20px;
-        margin: 5px;
+        margin: 2.5px;
       }
       .btn-1 {
         background-image: linear-gradient(to top left, rgba(28,10,13,1) 0%, rgba(46,196,182,1) 54%, rgba(47,64,78,1) 100%);
