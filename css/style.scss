@@ -137,8 +137,8 @@ body{
   }
   .sub-txt{
     h3{
-      font-size: 1.5em;
-      text-align: justify;
+      font-size: 1.35em;
+      text-align: left;
     }
     padding: 20px 20px 20px 20px;
   }
@@ -213,43 +213,89 @@ body{
     .contacts:last-of-type{
       padding: 10px 0 20px 0;
     }
-    .cntct-info{
-      ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        .cntct-link{
-          float: left;
-          margin: 15px 5px;
-          .btn {
-            font-size: 1.5em;
-            font-weight: 900;
-            flex: 1 1 auto;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 1s;
-            background-size: 200% auto;
-            border-radius: 5px;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 6px;
-            text-decoration: none;
-            border: 0;
-          }
-          .btn:hover {
-            background-position: right center; /* change the direction of the change here */
-          }
-          .cntct-svg{
-            height: 40px;
-            width: 40px;
-            margin: 5px 5px 5px 5px;
-          }
-          .btn-1 {
-            background-image: linear-gradient(to bottom right, rgba(168,158,160,1) 0%, rgba(255,159,28,1) 100%);
-          }
-        }
+  }
+}
+
+.cntct-info{
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    .cntct-link{
+      float: left;
+      margin: 15px 5px;
+      .btn {
+        font-size: 1.5em;
+        font-weight: 900;
+        flex: 1 1 auto;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 1s;
+        background-size: 200% auto;
+        border-radius: 5px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 6px;
+        text-decoration: none;
+        border: 0;
+      }
+      .btn:hover {
+        background-position: right center; /* change the direction of the change here */
+      }
+      .cntct-svg{
+        height: 40px;
+        width: 40px;
+        margin: 5px 5px 5px 5px;
+      }
+      .btn-1 {
+        background-image: linear-gradient(to bottom right, rgba(168,158,160,1) 0%, rgba(255,159,28,1) 100%);
+      }
+    }
+  }
+}
+
+.cntct-info-2{
+  ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding-right: 10px;
+    overflow: hidden;
+    .cntct-link{
+      float: left;
+      margin: 5px;
+      .btn {
+        flex: 1 1 auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        transition: 1s;
+        background-size: 200% auto;
+        border-radius: 5px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 6px;
+        text-decoration: none;
+        border: 0;
+      }
+      .btn:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #E8EAE8;
+      }
+      .cntct-svg{
+        height: 20px;
+        width: 20px;
+        margin: 2.5px;
+      }
+      .btn-1 {
+        background-image: linear-gradient(to top left, rgba(28,10,13,1) 0%, rgba(46,196,182,1) 54%, rgba(47,64,78,1) 100%);
       }
     }
   }
@@ -433,9 +479,9 @@ body{
         color: #E8EAE8;
       }
       p{
-        text-align: justify;
+        text-align: center;
         padding-bottom: 15px;
-        font-size: 1.3em;
+        font-size: 1.35em;
         color: #E8EAE8;
       }
       padding: 20px;
@@ -564,3 +610,30 @@ body{
     }
   }
 }
+
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  background-color: #FF9F1C;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+}
+#back2Top:hover {
+  background-color: #2EC4B6;
+  color: #000;
+}
+

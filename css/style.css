@@ -90,8 +90,8 @@ body {
 .sub-hdr .sub-txt {
   padding: 20px 20px 20px 20px; }
   .sub-hdr .sub-txt h3 {
-    font-size: 1.5em;
-    text-align: justify; }
+    font-size: 1.35em;
+    text-align: left; }
 .sub-hdr .bx-2 {
   background-color: #931323; }
 .sub-hdr .bx-3 {
@@ -148,38 +148,77 @@ body {
       padding: 20px 0; }
     .cntct-cont .cntct-box .contacts:last-of-type {
       padding: 10px 0 20px 0; }
-    .cntct-cont .cntct-box .cntct-info ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden; }
-      .cntct-cont .cntct-box .cntct-info ul .cntct-link {
-        float: left;
-        margin: 15px 5px; }
-        .cntct-cont .cntct-box .cntct-info ul .cntct-link .btn {
-          font-size: 1.5em;
-          font-weight: 900;
-          flex: 1 1 auto;
-          text-align: center;
-          text-transform: uppercase;
-          transition: 1s;
-          background-size: 200% auto;
-          border-radius: 5px;
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 6px;
-          text-decoration: none;
-          border: 0; }
-        .cntct-cont .cntct-box .cntct-info ul .cntct-link .btn:hover {
-          background-position: right center;
-          /* change the direction of the change here */ }
-        .cntct-cont .cntct-box .cntct-info ul .cntct-link .cntct-svg {
-          height: 40px;
-          width: 40px;
-          margin: 5px 5px 5px 5px; }
-        .cntct-cont .cntct-box .cntct-info ul .cntct-link .btn-1 {
-          background-image: linear-gradient(to bottom right, #a89ea0 0%, #ff9f1c 100%); }
+
+.cntct-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  .cntct-info ul .cntct-link {
+    float: left;
+    margin: 15px 5px; }
+    .cntct-info ul .cntct-link .btn {
+      font-size: 1.5em;
+      font-weight: 900;
+      flex: 1 1 auto;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 1s;
+      background-size: 200% auto;
+      border-radius: 5px;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 6px;
+      text-decoration: none;
+      border: 0; }
+    .cntct-info ul .cntct-link .btn:hover {
+      background-position: right center;
+      /* change the direction of the change here */ }
+    .cntct-info ul .cntct-link .cntct-svg {
+      height: 40px;
+      width: 40px;
+      margin: 5px 5px 5px 5px; }
+    .cntct-info ul .cntct-link .btn-1 {
+      background-image: linear-gradient(to bottom right, #a89ea0 0%, #ff9f1c 100%); }
+
+.cntct-info-2 ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 10px;
+  overflow: hidden; }
+  .cntct-info-2 ul .cntct-link {
+    float: left;
+    margin: 5px; }
+    .cntct-info-2 ul .cntct-link .btn {
+      flex: 1 1 auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      transition: 1s;
+      background-size: 200% auto;
+      border-radius: 5px;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 6px;
+      text-decoration: none;
+      border: 0; }
+    .cntct-info-2 ul .cntct-link .btn:hover {
+      background-position: right center;
+      /* change the direction of the change here */
+      color: #E8EAE8; }
+    .cntct-info-2 ul .cntct-link .cntct-svg {
+      height: 20px;
+      width: 20px;
+      margin: 2.5px; }
+    .cntct-info-2 ul .cntct-link .btn-1 {
+      background-image: linear-gradient(to top left, #1c0a0d 0%, #2ec4b6 54%, #2f404e 100%); }
 
 .pjct-cont .pjct-box:first-child {
   margin-top: 20px; }
@@ -299,9 +338,9 @@ body {
       padding-bottom: 15px;
       color: #E8EAE8; }
     .pjct-cont .pjct-box .pjct-content p {
-      text-align: justify;
+      text-align: center;
       padding-bottom: 15px;
-      font-size: 1.3em;
+      font-size: 1.35em;
       color: #E8EAE8; }
     .pjct-cont .pjct-box .pjct-content .pjct-skills {
       width: 100%;
@@ -404,5 +443,30 @@ body {
       color: #FF9F1C;
       border-bottom: 2px solid #FF9F1C;
       margin-bottom: 0; }
+
+#back2Top {
+  width: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  z-index: 999;
+  display: none;
+  cursor: pointer;
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  position: fixed;
+  bottom: 50px;
+  right: 0;
+  background-color: #FF9F1C;
+  color: #555;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none; }
+
+#back2Top:hover {
+  background-color: #2EC4B6;
+  color: #000; }
 
 /*# sourceMappingURL=style.css.map */
