@@ -213,43 +213,89 @@ body{
     .contacts:last-of-type{
       padding: 10px 0 20px 0;
     }
-    .cntct-info{
-      ul{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        .cntct-link{
-          float: left;
-          margin: 15px 5px;
-          .btn {
-            font-size: 1.5em;
-            font-weight: 900;
-            flex: 1 1 auto;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 1s;
-            background-size: 200% auto;
-            border-radius: 5px;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 6px;
-            text-decoration: none;
-            border: 0;
-          }
-          .btn:hover {
-            background-position: right center; /* change the direction of the change here */
-          }
-          .cntct-svg{
-            height: 40px;
-            width: 40px;
-            margin: 5px 5px 5px 5px;
-          }
-          .btn-1 {
-            background-image: linear-gradient(to bottom right, rgba(168,158,160,1) 0%, rgba(255,159,28,1) 100%);
-          }
-        }
+  }
+}
+
+.cntct-info{
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    .cntct-link{
+      float: left;
+      margin: 15px 5px;
+      .btn {
+        font-size: 1.5em;
+        font-weight: 900;
+        flex: 1 1 auto;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 1s;
+        background-size: 200% auto;
+        border-radius: 5px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 6px;
+        text-decoration: none;
+        border: 0;
+      }
+      .btn:hover {
+        background-position: right center; /* change the direction of the change here */
+      }
+      .cntct-svg{
+        height: 40px;
+        width: 40px;
+        margin: 5px 5px 5px 5px;
+      }
+      .btn-1 {
+        background-image: linear-gradient(to bottom right, rgba(168,158,160,1) 0%, rgba(255,159,28,1) 100%);
+      }
+    }
+  }
+}
+
+.cntct-info-2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 10px;
+    overflow: hidden;
+    .cntct-link{
+      float: left;
+      margin: 5px;
+      .btn {
+        flex: 1 1 auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        transition: 1s;
+        background-size: 200% auto;
+        border-radius: 5px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 6px;
+        text-decoration: none;
+        border: 0;
+      }
+      .btn:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #E8EAE8;
+      }
+      .cntct-svg{
+        height: 20px;
+        width: 20px;
+        margin: 5px;
+      }
+      .btn-1 {
+        background-image: linear-gradient(to top left, rgba(28,10,13,1) 0%, rgba(46,196,182,1) 54%, rgba(47,64,78,1) 100%);
       }
     }
   }
